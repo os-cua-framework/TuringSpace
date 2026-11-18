@@ -1,0 +1,10 @@
+# the five spatial benchmarks (ood_eval/spatial); ReCAP and Open CaptchaWorld use the root requirements.txt
+torch
+transformers
+openai
+huggingface_hub
+pandas
+pyarrow
+opencv-python
+pillow
+numpy

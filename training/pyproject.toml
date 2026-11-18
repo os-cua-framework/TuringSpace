@@ -1,0 +1,79 @@
+[project]
+name = "turingspace-training"
+version = "0.1.0"
+description = "SFT of Qwen3.5-9B into TuringSpace-9B with Megatron-SWIFT"
+requires-python = ">=3.12,<3.13"
+# The package versions of the ms-swift 4.4.1 container, on CUDA 12.8 wheels.
+dependencies = [
+    "ms-swift[megatron]==4.4.1",
+    "megatron-core==0.18.0",
+    "mcore-bridge==1.6.0",
+    "transformers==5.12.1",
+    "qwen-vl-utils==0.0.14",
+    "torch==2.11.0",
+    "torchvision==0.26.0",
+    "transformer-engine[pytorch,core_cu12]==2.16.1",
+    "flash-attn==2.8.3+cu.12.8.torch.2.11",
+    "flash-attn-3==3.0.0b1+cu.12.8.torch.2.11",
+    "flash-linear-attention==0.5.1",
+    "causal-conv1d==1.6.2.post1+cu.12.8.torch.2.11",
+    "tilelang==0.1.14",
+    "apex @ git+https://github.com/NVIDIA/apex.git@575968bc1f9127ccd61003a681472a83af4ff1a1",
+]
+
+[tool.uv]
+package = false
+
+[[tool.uv.dependency-metadata]]
+name = "apex"
+version = "0.1"
+requires-dist = ["packaging"]
+
+[[tool.uv.dependency-metadata]]
+name = "transformer-engine-torch"
+version = "2.16.1"
+requires-python = ">=3.10.0"
+requires-dist = [
+    "torch>=2.1",
+    "einops",
+    "onnxscript",
+    "onnx",
+    "packaging",
+    "pydantic",
+    "nvdlfw-inspect",
+    "transformer-engine-cu12==2.16.1",
+]
+
+[tool.uv.extra-build-dependencies]
+transformer-engine-torch = [
+    "numpy",
+    "nvidia-cuda-cccl-cu12==12.8.90",
+    "nvidia-cuda-nvcc-cu12==12.8.93",
+    { requirement = "torch", match-runtime = true },
+]
+apex = [
+    "packaging",
+    { requirement = "torch", match-runtime = true },
+]
+
+[tool.uv.extra-build-variables]
+# 80: A100, 90: H100/H200
+transformer-engine-torch = { NVTE_BUILD_USE_NVIDIA_WHEELS = "1", NVTE_CUDA_ARCHS = "80;90", NVTE_PYTORCH_FORCE_BUILD = "TRUE" }
+apex = { APEX_CPP_EXT = "1", APEX_CUDA_EXT = "1", TORCH_CUDA_ARCH_LIST = "8.0;9.0", CUDA_HOME = "/usr/local/cuda-12.8" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[[tool.uv.index]]
+name = "astral-cu128"
+url = "https://wheels.astral.sh/simple/cu128/"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+flash-attn = { index = "astral-cu128" }
+flash-attn-3 = { index = "astral-cu128" }
+causal-conv1d = { index = "astral-cu128" }

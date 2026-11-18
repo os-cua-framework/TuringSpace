@@ -1,0 +1,2784 @@
+{
+ "version": 1,
+ "backgrounds": [
+  {
+   "file": "bg_landscape_01.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_landscape_02.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 854,
+   "upright": true
+  },
+  {
+   "file": "bg_landscape_03.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 854,
+   "upright": true
+  },
+  {
+   "file": "bg_landscape_04.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 854,
+   "upright": true
+  },
+  {
+   "file": "bg_landscape_05.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 854,
+   "upright": true
+  },
+  {
+   "file": "bg_landscape_06.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 854,
+   "upright": true
+  },
+  {
+   "file": "bg_landscape_07.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 854,
+   "upright": true
+  },
+  {
+   "file": "bg_landscape_08.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 800,
+   "upright": true
+  },
+  {
+   "file": "bg_landscape_09.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_landscape_10.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_landscape_11.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_landscape_12.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_landscape_13.jpg",
+   "tag": "landscape",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_city_01.jpg",
+   "tag": "city",
+   "w": 1280,
+   "h": 672,
+   "upright": true
+  },
+  {
+   "file": "bg_city_02.jpg",
+   "tag": "city",
+   "w": 1280,
+   "h": 960,
+   "upright": true
+  },
+  {
+   "file": "bg_city_03.jpg",
+   "tag": "city",
+   "w": 1280,
+   "h": 851,
+   "upright": true
+  },
+  {
+   "file": "bg_city_05.jpg",
+   "tag": "city",
+   "w": 1280,
+   "h": 960,
+   "upright": true
+  },
+  {
+   "file": "bg_city_06.jpg",
+   "tag": "city",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_city_07.jpg",
+   "tag": "city",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_city_09.jpg",
+   "tag": "city",
+   "w": 1280,
+   "h": 725,
+   "upright": true
+  },
+  {
+   "file": "bg_nature_01.jpg",
+   "tag": "nature",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_nature_02.jpg",
+   "tag": "nature",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_nature_03.jpg",
+   "tag": "nature",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_nature_04.jpg",
+   "tag": "nature",
+   "w": 1280,
+   "h": 853,
+   "upright": false
+  },
+  {
+   "file": "bg_nature_05.jpg",
+   "tag": "nature",
+   "w": 1280,
+   "h": 853,
+   "upright": false
+  },
+  {
+   "file": "bg_nature_06.jpg",
+   "tag": "nature",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_water_01.jpg",
+   "tag": "water",
+   "w": 1280,
+   "h": 960,
+   "upright": true
+  },
+  {
+   "file": "bg_water_02.jpg",
+   "tag": "water",
+   "w": 1280,
+   "h": 954,
+   "upright": true
+  },
+  {
+   "file": "bg_water_03.jpg",
+   "tag": "water",
+   "w": 1280,
+   "h": 956,
+   "upright": true
+  },
+  {
+   "file": "bg_water_04.jpg",
+   "tag": "water",
+   "w": 1280,
+   "h": 960,
+   "upright": true
+  },
+  {
+   "file": "bg_desert_01.jpg",
+   "tag": "desert",
+   "w": 1280,
+   "h": 853,
+   "upright": false
+  },
+  {
+   "file": "bg_desert_02.jpg",
+   "tag": "desert",
+   "w": 1280,
+   "h": 853,
+   "upright": false
+  },
+  {
+   "file": "bg_desert_03.jpg",
+   "tag": "desert",
+   "w": 1280,
+   "h": 825,
+   "upright": false
+  },
+  {
+   "file": "bg_winter_01.jpg",
+   "tag": "winter",
+   "w": 1280,
+   "h": 960,
+   "upright": true
+  },
+  {
+   "file": "bg_winter_02.jpg",
+   "tag": "winter",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_winter_03.jpg",
+   "tag": "winter",
+   "w": 1280,
+   "h": 750,
+   "upright": true
+  },
+  {
+   "file": "bg_architecture_01.jpg",
+   "tag": "architecture",
+   "w": 1280,
+   "h": 852,
+   "upright": false
+  },
+  {
+   "file": "bg_architecture_02.jpg",
+   "tag": "architecture",
+   "w": 1280,
+   "h": 960,
+   "upright": true
+  },
+  {
+   "file": "bg_architecture_03.jpg",
+   "tag": "architecture",
+   "w": 1280,
+   "h": 960,
+   "upright": true
+  },
+  {
+   "file": "bg_architecture_04.jpg",
+   "tag": "architecture",
+   "w": 1280,
+   "h": 960,
+   "upright": false
+  },
+  {
+   "file": "bg_architecture_06.jpg",
+   "tag": "architecture",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_architecture_07.jpg",
+   "tag": "architecture",
+   "w": 1280,
+   "h": 875,
+   "upright": true
+  },
+  {
+   "file": "bg_architecture_08.jpg",
+   "tag": "architecture",
+   "w": 1280,
+   "h": 960,
+   "upright": true
+  },
+  {
+   "file": "bg_animal_01.jpg",
+   "tag": "animal",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_animal_05.jpg",
+   "tag": "animal",
+   "w": 1280,
+   "h": 926,
+   "upright": true
+  },
+  {
+   "file": "bg_animal_06.jpg",
+   "tag": "animal",
+   "w": 1280,
+   "h": 853,
+   "upright": true
+  },
+  {
+   "file": "bg_animal_08.jpg",
+   "tag": "animal",
+   "w": 1280,
+   "h": 854,
+   "upright": true
+  },
+  {
+   "file": "bg_desk_03.jpg",
+   "tag": "desk",
+   "w": 1280,
+   "h": 854,
+   "upright": true
+  },
+  {
+   "file": "bg_texture_01.jpg",
+   "tag": "texture",
+   "w": 1280,
+   "h": 987,
+   "upright": false
+  },
+  {
+   "file": "bg_texture_02.jpg",
+   "tag": "texture",
+   "w": 1280,
+   "h": 853,
+   "upright": false
+  },
+  {
+   "file": "bg_texture_03.jpg",
+   "tag": "texture",
+   "w": 1280,
+   "h": 853,
+   "upright": false
+  },
+  {
+   "file": "bg_texture_04.jpg",
+   "tag": "texture",
+   "w": 1280,
+   "h": 854,
+   "upright": false
+  },
+  {
+   "file": "bg_texture_05.jpg",
+   "tag": "texture",
+   "w": 1280,
+   "h": 853,
+   "upright": false
+  },
+  {
+   "file": "bg_indoor_01.jpg",
+   "tag": "indoor",
+   "w": 1280,
+   "h": 1042,
+   "upright": true
+  },
+  {
+   "file": "bg_indoor_02.jpg",
+   "tag": "indoor",
+   "w": 1280,
+   "h": 696,
+   "upright": true
+  },
+  {
+   "file": "bg_indoor_03.jpg",
+   "tag": "indoor",
+   "w": 1280,
+   "h": 854,
+   "upright": true
+  },
+  {
+   "file": "bg_indoor_04.jpg",
+   "tag": "indoor",
+   "w": 1280,
+   "h": 964,
+   "upright": true
+  },
+  {
+   "file": "bg_indoor_05.jpg",
+   "tag": "indoor",
+   "w": 1280,
+   "h": 960,
+   "upright": true
+  },
+  {
+   "file": "bg_indoor_06.jpg",
+   "tag": "indoor",
+   "w": 1280,
+   "h": 853,
+   "upright": false
+  }
+ ],
+ "emoji": {
+  "airplane": {
+   "en": "airplane",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "alarm_clock": {
+   "en": "alarm clock",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "ambulance": {
+   "en": "ambulance",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "american_football": {
+   "en": "american football",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "anchor": {
+   "en": "anchor",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "ant": {
+   "en": "ant",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "automobile": {
+   "en": "car",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "avocado": {
+   "en": "avocado",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "axe": {
+   "en": "axe",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "baby_chick": {
+   "en": "chick",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "backpack": {
+   "en": "backpack",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "badminton": {
+   "en": "badminton",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "baguette_bread": {
+   "en": "baguette bread",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "balloon": {
+   "en": "balloon",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "banana": {
+   "en": "banana",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "baseball": {
+   "en": "baseball",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "basket": {
+   "en": "basket",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "basketball": {
+   "en": "basketball",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "bat": {
+   "en": "bat",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "battery": {
+   "en": "battery",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "bear": {
+   "en": "bear",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "bed": {
+   "en": "bed",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "beer_mug": {
+   "en": "beer",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "bell": {
+   "en": "bell",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "bicycle": {
+   "en": "bicycle",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "billed_cap": {
+   "en": "cap",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "bird": {
+   "en": "bird",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "birthday_cake": {
+   "en": "cake",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "blowfish": {
+   "en": "blowfish",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "blueberries": {
+   "en": "blueberries",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "books": {
+   "en": "books",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "bowling": {
+   "en": "bowling",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "bread": {
+   "en": "bread",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "briefcase": {
+   "en": "briefcase",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "broccoli": {
+   "en": "broccoli",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "broom": {
+   "en": "broom",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "bubble_tea": {
+   "en": "bubble tea",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "burrito": {
+   "en": "burrito",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "bus": {
+   "en": "bus",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "butterfly": {
+   "en": "butterfly",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "cactus": {
+   "en": "cactus",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "camel": {
+   "en": "camel",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "camera": {
+   "en": "camera",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "candle": {
+   "en": "candle",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "candy": {
+   "en": "candy",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "canoe": {
+   "en": "canoe",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "carrot": {
+   "en": "carrot",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "cat_face": {
+   "en": "cat",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "chair": {
+   "en": "chair",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "cheese_wedge": {
+   "en": "cheese wedge",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "cherries": {
+   "en": "cherries",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "cherry_blossom": {
+   "en": "cherry blossom",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "chicken": {
+   "en": "chicken",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "chocolate_bar": {
+   "en": "chocolate bar",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "chopsticks": {
+   "en": "chopsticks",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "cloud": {
+   "en": "cloud",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "coconut": {
+   "en": "coconut",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "computer_mouse": {
+   "en": "computer mouse",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "cooked_rice": {
+   "en": "rice",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "cookie": {
+   "en": "cookie",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "couch_and_lamp": {
+   "en": "couch and lamp",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "cow_face": {
+   "en": "cow",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "crab": {
+   "en": "crab",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "crayon": {
+   "en": "crayon",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "crescent_moon": {
+   "en": "moon",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "crocodile": {
+   "en": "crocodile",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "croissant": {
+   "en": "croissant",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "crown": {
+   "en": "crown",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "cucumber": {
+   "en": "cucumber",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "cup_with_straw": {
+   "en": "cup with straw",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "cupcake": {
+   "en": "cupcake",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "deciduous_tree": {
+   "en": "tree",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "deer": {
+   "en": "deer",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "delivery_truck": {
+   "en": "truck",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "dog_face": {
+   "en": "dog",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "dolphin": {
+   "en": "dolphin",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "door": {
+   "en": "door",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "doughnut": {
+   "en": "doughnut",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "dove": {
+   "en": "dove",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "dress": {
+   "en": "dress",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "droplet": {
+   "en": "droplet",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "drum": {
+   "en": "drum",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "duck": {
+   "en": "duck",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "eagle": {
+   "en": "eagle",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "ear_of_corn": {
+   "en": "corn",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "eggplant": {
+   "en": "eggplant",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "electric_plug": {
+   "en": "plug",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "elephant": {
+   "en": "elephant",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "envelope": {
+   "en": "envelope",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "evergreen_tree": {
+   "en": "pine tree",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "ewe": {
+   "en": "ewe",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "fire": {
+   "en": "fire",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "fire_engine": {
+   "en": "fire engine",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "fish": {
+   "en": "fish",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "flamingo": {
+   "en": "flamingo",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "flashlight": {
+   "en": "flashlight",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "fork_and_knife": {
+   "en": "fork and knife",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "fountain_pen": {
+   "en": "pen",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "four_leaf_clover": {
+   "en": "four leaf clover",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "fox": {
+   "en": "fox",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "french_fries": {
+   "en": "french fries",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "frog": {
+   "en": "frog",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "game_die": {
+   "en": "dice",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "gear": {
+   "en": "gear",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "gem_stone": {
+   "en": "gem stone",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "giraffe": {
+   "en": "giraffe",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "glass_of_milk": {
+   "en": "milk",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "glasses": {
+   "en": "glasses",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "gloves": {
+   "en": "gloves",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "goat": {
+   "en": "goat",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "gorilla": {
+   "en": "gorilla",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "graduation_cap": {
+   "en": "graduation cap",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "grapes": {
+   "en": "grapes",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "guitar": {
+   "en": "guitar",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "hamburger": {
+   "en": "hamburger",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "hammer": {
+   "en": "hammer",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "handbag": {
+   "en": "handbag",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "headphone": {
+   "en": "headphone",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "hedgehog": {
+   "en": "hedgehog",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "helicopter": {
+   "en": "helicopter",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "high_heeled_shoe": {
+   "en": "high heeled shoe",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "high_voltage": {
+   "en": "lightning",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "honey_pot": {
+   "en": "honey pot",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "honeybee": {
+   "en": "honeybee",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "horse_face": {
+   "en": "horse",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "hot_beverage": {
+   "en": "coffee",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "hot_dog": {
+   "en": "hot dog",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "hot_pepper": {
+   "en": "chili",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "hourglass_done": {
+   "en": "hourglass",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "ice_cream": {
+   "en": "ice cream",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "jeans": {
+   "en": "jeans",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "kangaroo": {
+   "en": "kangaroo",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "key": {
+   "en": "key",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "keyboard": {
+   "en": "keyboard",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "kick_scooter": {
+   "en": "scooter",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "kitchen_knife": {
+   "en": "kitchen knife",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "kite": {
+   "en": "kite",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "kiwi_fruit": {
+   "en": "kiwi fruit",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "koala": {
+   "en": "koala",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "ladder": {
+   "en": "ladder",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "lady_beetle": {
+   "en": "lady beetle",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "laptop": {
+   "en": "laptop",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "lemon": {
+   "en": "lemon",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "light_bulb": {
+   "en": "light bulb",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "lion": {
+   "en": "lion",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "locked": {
+   "en": "lock",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "locomotive": {
+   "en": "train",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "lollipop": {
+   "en": "lollipop",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "magnet": {
+   "en": "magnet",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "mango": {
+   "en": "mango",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "maple_leaf": {
+   "en": "maple leaf",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "melon": {
+   "en": "melon",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "microphone": {
+   "en": "microphone",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "microscope": {
+   "en": "microscope",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "mobile_phone": {
+   "en": "phone",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "monkey_face": {
+   "en": "monkey",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "motorcycle": {
+   "en": "motorcycle",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "mouse_face": {
+   "en": "mouse",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "mushroom": {
+   "en": "mushroom",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "necktie": {
+   "en": "necktie",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "newspaper": {
+   "en": "newspaper",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "nut_and_bolt": {
+   "en": "bolt",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "octopus": {
+   "en": "octopus",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "old_key": {
+   "en": "old key",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "open_book": {
+   "en": "open book",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "owl": {
+   "en": "owl",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "package": {
+   "en": "package",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "paintbrush": {
+   "en": "paintbrush",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "palm_tree": {
+   "en": "palm tree",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "pancakes": {
+   "en": "pancakes",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "panda": {
+   "en": "panda",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "parrot": {
+   "en": "parrot",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "peach": {
+   "en": "peach",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "peacock": {
+   "en": "peacock",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "peanuts": {
+   "en": "peanuts",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "pear": {
+   "en": "pear",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "pencil": {
+   "en": "pencil",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "penguin": {
+   "en": "penguin",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "pie": {
+   "en": "pie",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "pig_face": {
+   "en": "pig",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "pill": {
+   "en": "pill",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "pineapple": {
+   "en": "pineapple",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "ping_pong": {
+   "en": "ping pong",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "pizza": {
+   "en": "pizza",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "police_car": {
+   "en": "police car",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "potted_plant": {
+   "en": "potted plant",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "pushpin": {
+   "en": "pushpin",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "puzzle_piece": {
+   "en": "puzzle piece",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "rabbit_face": {
+   "en": "rabbit",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "raccoon": {
+   "en": "raccoon",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "racing_car": {
+   "en": "racing car",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "rainbow": {
+   "en": "rainbow",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "red_apple": {
+   "en": "apple",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "ring": {
+   "en": "ring",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "rocket": {
+   "en": "rocket",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "rooster": {
+   "en": "rooster",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "rose": {
+   "en": "rose",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "running_shoe": {
+   "en": "sneaker",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "sailboat": {
+   "en": "sailboat",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "sandwich": {
+   "en": "sandwich",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "saxophone": {
+   "en": "saxophone",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "scissors": {
+   "en": "scissors",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "shark": {
+   "en": "shark",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "ship": {
+   "en": "ship",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "shopping_cart": {
+   "en": "shopping cart",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "shortcake": {
+   "en": "cake",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "shrimp": {
+   "en": "shrimp",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "small_airplane": {
+   "en": "small airplane",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "snail": {
+   "en": "snail",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "snake": {
+   "en": "snake",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "snowflake": {
+   "en": "snowflake",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "snowman_without_snow": {
+   "en": "snowman without snow",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "soap": {
+   "en": "soap",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "soccer_ball": {
+   "en": "soccer ball",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "soft_ice_cream": {
+   "en": "ice cream",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "speedboat": {
+   "en": "speedboat",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "spouting_whale": {
+   "en": "whale",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "star": {
+   "en": "star",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "strawberry": {
+   "en": "strawberry",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "sun": {
+   "en": "sun",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "sunflower": {
+   "en": "sunflower",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "sushi": {
+   "en": "sushi",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "swan": {
+   "en": "swan",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "syringe": {
+   "en": "syringe",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "t_shirt": {
+   "en": "t shirt",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "taco": {
+   "en": "taco",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "tangerine": {
+   "en": "tangerine",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "taxi": {
+   "en": "taxi",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "teapot": {
+   "en": "teapot",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "teddy_bear": {
+   "en": "teddy bear",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "telephone": {
+   "en": "telephone",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "telescope": {
+   "en": "telescope",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "television": {
+   "en": "television",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "tennis": {
+   "en": "tennis",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "tiger_face": {
+   "en": "tiger",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "tomato": {
+   "en": "tomato",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "toothbrush": {
+   "en": "toothbrush",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "top_hat": {
+   "en": "top hat",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "tractor": {
+   "en": "tractor",
+   "category": "transport",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "tropical_drink": {
+   "en": "cocktail",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "tropical_fish": {
+   "en": "fish",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "trumpet": {
+   "en": "trumpet",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "tulip": {
+   "en": "tulip",
+   "category": "nature",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "turkey": {
+   "en": "turkey",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "turtle": {
+   "en": "turtle",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "umbrella": {
+   "en": "umbrella",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "unicorn": {
+   "en": "unicorn",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "violin": {
+   "en": "violin",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "volleyball": {
+   "en": "volleyball",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "watch": {
+   "en": "watch",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "watermelon": {
+   "en": "watermelon",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "wine_glass": {
+   "en": "wine",
+   "category": "food",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "wolf": {
+   "en": "wolf",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "wrapped_gift": {
+   "en": "gift",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "wrench": {
+   "en": "wrench",
+   "category": "object",
+   "twemoji": true,
+   "openmoji": true
+  },
+  "zebra": {
+   "en": "zebra",
+   "category": "animal",
+   "twemoji": true,
+   "openmoji": true
+  }
+ },
+ "gameicons": {
+  "airplane": {
+   "file": "airplane.svg",
+   "en": "airplane",
+   "author": "delapouite"
+  },
+  "alarm_clock": {
+   "file": "alarm_clock.svg",
+   "en": "alarm clock",
+   "author": "delapouite"
+  },
+  "anchor": {
+   "file": "anchor.svg",
+   "en": "anchor",
+   "author": "lorc"
+  },
+  "ant": {
+   "file": "ant.svg",
+   "en": "ant",
+   "author": "delapouite"
+  },
+  "apple": {
+   "file": "apple.svg",
+   "en": "apple",
+   "author": "lorc"
+  },
+  "axe": {
+   "file": "axe.svg",
+   "en": "axe",
+   "author": "lorc"
+  },
+  "backpack": {
+   "file": "backpack.svg",
+   "en": "backpack",
+   "author": "delapouite"
+  },
+  "banana": {
+   "file": "banana.svg",
+   "en": "banana",
+   "author": "delapouite"
+  },
+  "basket": {
+   "file": "basket.svg",
+   "en": "basket",
+   "author": "delapouite"
+  },
+  "basketball": {
+   "file": "basketball.svg",
+   "en": "basketball",
+   "author": "delapouite"
+  },
+  "bat": {
+   "file": "bat.svg",
+   "en": "bat",
+   "author": "skoll"
+  },
+  "battery": {
+   "file": "battery.svg",
+   "en": "battery",
+   "author": "sbed"
+  },
+  "bear": {
+   "file": "bear.svg",
+   "en": "bear",
+   "author": "delapouite"
+  },
+  "bed": {
+   "file": "bed.svg",
+   "en": "bed",
+   "author": "delapouite"
+  },
+  "beer": {
+   "file": "beer.svg",
+   "en": "beer",
+   "author": "lorc"
+  },
+  "bell": {
+   "file": "bell.svg",
+   "en": "bell",
+   "author": "lorc"
+  },
+  "bicycle": {
+   "file": "bicycle.svg",
+   "en": "bicycle",
+   "author": "delapouite"
+  },
+  "bird": {
+   "file": "bird.svg",
+   "en": "bird",
+   "author": "lorc"
+  },
+  "book": {
+   "file": "book.svg",
+   "en": "book",
+   "author": "lorc"
+  },
+  "bread": {
+   "file": "bread.svg",
+   "en": "bread",
+   "author": "lorc"
+  },
+  "broom": {
+   "file": "broom.svg",
+   "en": "broom",
+   "author": "delapouite"
+  },
+  "bulb": {
+   "file": "bulb.svg",
+   "en": "light bulb",
+   "author": "lorc"
+  },
+  "bus": {
+   "file": "bus.svg",
+   "en": "bus",
+   "author": "delapouite"
+  },
+  "butterfly": {
+   "file": "butterfly.svg",
+   "en": "butterfly",
+   "author": "lorc"
+  },
+  "cactus": {
+   "file": "cactus.svg",
+   "en": "cactus",
+   "author": "delapouite"
+  },
+  "cake": {
+   "file": "cake.svg",
+   "en": "cake",
+   "author": "lorc"
+  },
+  "camel": {
+   "file": "camel.svg",
+   "en": "camel",
+   "author": "delapouite"
+  },
+  "camera": {
+   "file": "camera.svg",
+   "en": "camera",
+   "author": "delapouite"
+  },
+  "candle": {
+   "file": "candle.svg",
+   "en": "candle",
+   "author": "lorc"
+  },
+  "candy": {
+   "file": "candy.svg",
+   "en": "candy",
+   "author": "lorc"
+  },
+  "canoe": {
+   "file": "canoe.svg",
+   "en": "canoe",
+   "author": "delapouite"
+  },
+  "car": {
+   "file": "car.svg",
+   "en": "car",
+   "author": "delapouite"
+  },
+  "carrot": {
+   "file": "carrot.svg",
+   "en": "carrot",
+   "author": "delapouite"
+  },
+  "cat": {
+   "file": "cat.svg",
+   "en": "cat",
+   "author": "lorc"
+  },
+  "chair": {
+   "file": "chair.svg",
+   "en": "chair",
+   "author": "delapouite"
+  },
+  "cheese": {
+   "file": "cheese.svg",
+   "en": "cheese",
+   "author": "lorc"
+  },
+  "cherry": {
+   "file": "cherry.svg",
+   "en": "cherry",
+   "author": "delapouite"
+  },
+  "clock": {
+   "file": "clock.svg",
+   "en": "clock",
+   "author": "lorc"
+  },
+  "cloud": {
+   "file": "cloud.svg",
+   "en": "cloud",
+   "author": "badges"
+  },
+  "coffee": {
+   "file": "coffee.svg",
+   "en": "coffee",
+   "author": "delapouite"
+  },
+  "corn": {
+   "file": "corn.svg",
+   "en": "corn",
+   "author": "delapouite"
+  },
+  "croissant": {
+   "file": "croissant.svg",
+   "en": "croissant",
+   "author": "delapouite"
+  },
+  "crown": {
+   "file": "crown.svg",
+   "en": "crown",
+   "author": "lorc"
+  },
+  "deer": {
+   "file": "deer.svg",
+   "en": "deer",
+   "author": "caro-asercion"
+  },
+  "dice": {
+   "file": "dice.svg",
+   "en": "dice",
+   "author": "delapouite"
+  },
+  "dog": {
+   "file": "dog.svg",
+   "en": "dog",
+   "author": "delapouite"
+  },
+  "donut": {
+   "file": "donut.svg",
+   "en": "donut",
+   "author": "delapouite"
+  },
+  "door": {
+   "file": "door.svg",
+   "en": "door",
+   "author": "delapouite"
+  },
+  "droplet": {
+   "file": "droplet.svg",
+   "en": "droplet",
+   "author": "sbed"
+  },
+  "drum": {
+   "file": "drum.svg",
+   "en": "drum",
+   "author": "delapouite"
+  },
+  "duck": {
+   "file": "duck.svg",
+   "en": "duck",
+   "author": "delapouite"
+  },
+  "eagle": {
+   "file": "eagle.svg",
+   "en": "eagle",
+   "author": "lorc"
+  },
+  "eggplant": {
+   "file": "eggplant.svg",
+   "en": "eggplant",
+   "author": "lorc"
+  },
+  "elephant": {
+   "file": "elephant.svg",
+   "en": "elephant",
+   "author": "delapouite"
+  },
+  "envelope": {
+   "file": "envelope.svg",
+   "en": "envelope",
+   "author": "lorc"
+  },
+  "fish": {
+   "file": "fish.svg",
+   "en": "fish",
+   "author": "delapouite"
+  },
+  "flame": {
+   "file": "flame.svg",
+   "en": "flame",
+   "author": "lorc"
+  },
+  "flashlight": {
+   "file": "flashlight.svg",
+   "en": "flashlight",
+   "author": "delapouite"
+  },
+  "fork_knife": {
+   "file": "fork_knife.svg",
+   "en": "fork and knife",
+   "author": "lorc"
+  },
+  "fox": {
+   "file": "fox.svg",
+   "en": "fox",
+   "author": "lorc"
+  },
+  "fries": {
+   "file": "fries.svg",
+   "en": "fries",
+   "author": "delapouite"
+  },
+  "frog": {
+   "file": "frog.svg",
+   "en": "frog",
+   "author": "lorc"
+  },
+  "gear": {
+   "file": "gear.svg",
+   "en": "gear",
+   "author": "lorc"
+  },
+  "gem": {
+   "file": "gem.svg",
+   "en": "gem",
+   "author": "lorc"
+  },
+  "gift": {
+   "file": "gift.svg",
+   "en": "gift",
+   "author": "delapouite"
+  },
+  "glasses": {
+   "file": "glasses.svg",
+   "en": "glasses",
+   "author": "lorc"
+  },
+  "grapes": {
+   "file": "grapes.svg",
+   "en": "grapes",
+   "author": "lorc"
+  },
+  "guitar": {
+   "file": "guitar.svg",
+   "en": "guitar",
+   "author": "lorc"
+  },
+  "hamburger": {
+   "file": "hamburger.svg",
+   "en": "hamburger",
+   "author": "delapouite"
+  },
+  "hammer": {
+   "file": "hammer.svg",
+   "en": "hammer",
+   "author": "lorc"
+  },
+  "headphones": {
+   "file": "headphones.svg",
+   "en": "headphones",
+   "author": "delapouite"
+  },
+  "hedgehog": {
+   "file": "hedgehog.svg",
+   "en": "hedgehog",
+   "author": "caro-asercion"
+  },
+  "helicopter": {
+   "file": "helicopter.svg",
+   "en": "helicopter",
+   "author": "delapouite"
+  },
+  "high_heel": {
+   "file": "high_heel.svg",
+   "en": "high heel",
+   "author": "delapouite"
+  },
+  "horse": {
+   "file": "horse.svg",
+   "en": "horse",
+   "author": "lorc"
+  },
+  "hotdog": {
+   "file": "hotdog.svg",
+   "en": "hotdog",
+   "author": "delapouite"
+  },
+  "hourglass": {
+   "file": "hourglass.svg",
+   "en": "hourglass",
+   "author": "lorc"
+  },
+  "icecream": {
+   "file": "icecream.svg",
+   "en": "ice cream",
+   "author": "delapouite"
+  },
+  "kangaroo": {
+   "file": "kangaroo.svg",
+   "en": "kangaroo",
+   "author": "delapouite"
+  },
+  "key": {
+   "file": "key.svg",
+   "en": "key",
+   "author": "delapouite"
+  },
+  "keyboard": {
+   "file": "keyboard.svg",
+   "en": "keyboard",
+   "author": "delapouite"
+  },
+  "kite": {
+   "file": "kite.svg",
+   "en": "kite",
+   "author": "delapouite"
+  },
+  "ladder": {
+   "file": "ladder.svg",
+   "en": "ladder",
+   "author": "delapouite"
+  },
+  "lightning": {
+   "file": "lightning.svg",
+   "en": "lightning",
+   "author": "lorc"
+  },
+  "locomotive": {
+   "file": "locomotive.svg",
+   "en": "train",
+   "author": "delapouite"
+  },
+  "lollipop": {
+   "file": "lollipop.svg",
+   "en": "lollipop",
+   "author": "delapouite"
+  },
+  "magnet": {
+   "file": "magnet.svg",
+   "en": "magnet",
+   "author": "lorc"
+  },
+  "maple_leaf": {
+   "file": "maple_leaf.svg",
+   "en": "maple leaf",
+   "author": "lorc"
+  },
+  "microphone": {
+   "file": "microphone.svg",
+   "en": "microphone",
+   "author": "delapouite"
+  },
+  "microscope": {
+   "file": "microscope.svg",
+   "en": "microscope",
+   "author": "lord-berandas"
+  },
+  "monkey": {
+   "file": "monkey.svg",
+   "en": "monkey",
+   "author": "lorc"
+  },
+  "moon": {
+   "file": "moon.svg",
+   "en": "moon",
+   "author": "lorc"
+  },
+  "mouse": {
+   "file": "mouse.svg",
+   "en": "mouse",
+   "author": "lorc"
+  },
+  "mousedev": {
+   "file": "mousedev.svg",
+   "en": "computer mouse",
+   "author": "lorc"
+  },
+  "mushroom": {
+   "file": "mushroom.svg",
+   "en": "mushroom",
+   "author": "lorc"
+  },
+  "octopus": {
+   "file": "octopus.svg",
+   "en": "octopus",
+   "author": "lorc"
+  },
+  "owl": {
+   "file": "owl.svg",
+   "en": "owl",
+   "author": "lorc"
+  },
+  "padlock": {
+   "file": "padlock.svg",
+   "en": "padlock",
+   "author": "lorc"
+  },
+  "paintbrush": {
+   "file": "paintbrush.svg",
+   "en": "paintbrush",
+   "author": "delapouite"
+  },
+  "palm_tree": {
+   "file": "palm_tree.svg",
+   "en": "palm tree",
+   "author": "delapouite"
+  },
+  "peach": {
+   "file": "peach.svg",
+   "en": "peach",
+   "author": "delapouite"
+  },
+  "pear": {
+   "file": "pear.svg",
+   "en": "pear",
+   "author": "delapouite"
+  },
+  "pencil": {
+   "file": "pencil.svg",
+   "en": "pencil",
+   "author": "delapouite"
+  },
+  "penguin": {
+   "file": "penguin.svg",
+   "en": "penguin",
+   "author": "delapouite"
+  },
+  "pig": {
+   "file": "pig.svg",
+   "en": "pig",
+   "author": "skoll"
+  },
+  "pill": {
+   "file": "pill.svg",
+   "en": "pill",
+   "author": "lorc"
+  },
+  "pine_tree": {
+   "file": "pine_tree.svg",
+   "en": "pine tree",
+   "author": "lorc"
+  },
+  "pineapple": {
+   "file": "pineapple.svg",
+   "en": "pineapple",
+   "author": "delapouite"
+  },
+  "pizza": {
+   "file": "pizza.svg",
+   "en": "pizza",
+   "author": "delapouite"
+  },
+  "plug": {
+   "file": "plug.svg",
+   "en": "plug",
+   "author": "sbed"
+  },
+  "rabbit": {
+   "file": "rabbit.svg",
+   "en": "rabbit",
+   "author": "delapouite"
+  },
+  "racecar": {
+   "file": "racecar.svg",
+   "en": "racecar",
+   "author": "skoll"
+  },
+  "ring": {
+   "file": "ring.svg",
+   "en": "ring",
+   "author": "delapouite"
+  },
+  "rocket": {
+   "file": "rocket.svg",
+   "en": "rocket",
+   "author": "lorc"
+  },
+  "rooster": {
+   "file": "rooster.svg",
+   "en": "rooster",
+   "author": "delapouite"
+  },
+  "rose": {
+   "file": "rose.svg",
+   "en": "rose",
+   "author": "lorc"
+  },
+  "sailboat": {
+   "file": "sailboat.svg",
+   "en": "sailboat",
+   "author": "delapouite"
+  },
+  "saxophone": {
+   "file": "saxophone.svg",
+   "en": "saxophone",
+   "author": "delapouite"
+  },
+  "scissors": {
+   "file": "scissors.svg",
+   "en": "scissors",
+   "author": "lorc"
+  },
+  "scooter": {
+   "file": "scooter.svg",
+   "en": "scooter",
+   "author": "delapouite"
+  },
+  "shark": {
+   "file": "shark.svg",
+   "en": "shark",
+   "author": "lorc"
+  },
+  "sheep": {
+   "file": "sheep.svg",
+   "en": "sheep",
+   "author": "delapouite"
+  },
+  "ship": {
+   "file": "ship.svg",
+   "en": "ship",
+   "author": "delapouite"
+  },
+  "smartphone": {
+   "file": "smartphone.svg",
+   "en": "phone",
+   "author": "skoll"
+  },
+  "snail": {
+   "file": "snail.svg",
+   "en": "snail",
+   "author": "lorc"
+  },
+  "snake": {
+   "file": "snake.svg",
+   "en": "snake",
+   "author": "lorc"
+  },
+  "sneaker": {
+   "file": "sneaker.svg",
+   "en": "sneaker",
+   "author": "delapouite"
+  },
+  "snowflake": {
+   "file": "snowflake.svg",
+   "en": "snowflake",
+   "author": "lorc"
+  },
+  "soccer": {
+   "file": "soccer.svg",
+   "en": "soccer",
+   "author": "delapouite"
+  },
+  "sofa": {
+   "file": "sofa.svg",
+   "en": "sofa",
+   "author": "delapouite"
+  },
+  "speedboat": {
+   "file": "speedboat.svg",
+   "en": "speedboat",
+   "author": "delapouite"
+  },
+  "sun": {
+   "file": "sun.svg",
+   "en": "sun",
+   "author": "lorc"
+  },
+  "sunflower": {
+   "file": "sunflower.svg",
+   "en": "sunflower",
+   "author": "delapouite"
+  },
+  "sushi": {
+   "file": "sushi.svg",
+   "en": "sushi",
+   "author": "delapouite"
+  },
+  "swan": {
+   "file": "swan.svg",
+   "en": "swan",
+   "author": "lorc"
+  },
+  "syringe": {
+   "file": "syringe.svg",
+   "en": "syringe",
+   "author": "sbed"
+  },
+  "teapot": {
+   "file": "teapot.svg",
+   "en": "teapot",
+   "author": "lorc"
+  },
+  "telescope": {
+   "file": "telescope.svg",
+   "en": "telescope",
+   "author": "delapouite"
+  },
+  "tennis": {
+   "file": "tennis.svg",
+   "en": "tennis",
+   "author": "delapouite"
+  },
+  "tomato": {
+   "file": "tomato.svg",
+   "en": "tomato",
+   "author": "delapouite"
+  },
+  "toothbrush": {
+   "file": "toothbrush.svg",
+   "en": "toothbrush",
+   "author": "caro-asercion"
+  },
+  "top_hat": {
+   "file": "top_hat.svg",
+   "en": "top hat",
+   "author": "lorc"
+  },
+  "tractor": {
+   "file": "tractor.svg",
+   "en": "tractor",
+   "author": "delapouite"
+  },
+  "trousers": {
+   "file": "trousers.svg",
+   "en": "trousers",
+   "author": "lucasms"
+  },
+  "truck": {
+   "file": "truck.svg",
+   "en": "truck",
+   "author": "delapouite"
+  },
+  "trumpet": {
+   "file": "trumpet.svg",
+   "en": "trumpet",
+   "author": "delapouite"
+  },
+  "tshirt": {
+   "file": "tshirt.svg",
+   "en": "t-shirt",
+   "author": "delapouite"
+  },
+  "turtle": {
+   "file": "turtle.svg",
+   "en": "turtle",
+   "author": "lorc"
+  },
+  "tv": {
+   "file": "tv.svg",
+   "en": "tv",
+   "author": "delapouite"
+  },
+  "umbrella": {
+   "file": "umbrella.svg",
+   "en": "umbrella",
+   "author": "lorc"
+  },
+  "violin": {
+   "file": "violin.svg",
+   "en": "violin",
+   "author": "zajkonur"
+  },
+  "watermelon": {
+   "file": "watermelon.svg",
+   "en": "watermelon",
+   "author": "delapouite"
+  },
+  "wine": {
+   "file": "wine.svg",
+   "en": "wine",
+   "author": "lorc"
+  },
+  "wolf": {
+   "file": "wolf.svg",
+   "en": "wolf",
+   "author": "lorc"
+  }
+ },
+ "fonts": [
+  {
+   "family": "SCB Noto Sans SC",
+   "file": "SCBNotoSansSC-Regular.ttf",
+   "role": "canonical",
+   "weight": 400
+  },
+  {
+   "family": "SCB Noto Sans SC Bold",
+   "file": "SCBNotoSansSC-Bold.ttf",
+   "role": "canonical-bold",
+   "weight": 700
+  },
+  {
+   "family": "SCB ZCOOL KuaiLe",
+   "file": "SCBZCOOLKuaiLe-Regular.ttf",
+   "role": "glyph-easy",
+   "weight": 400
+  },
+  {
+   "family": "SCB ZCOOL HuangYou",
+   "file": "SCBZCOOLHuangYou-Regular.ttf",
+   "role": "glyph-easy",
+   "weight": 400
+  },
+  {
+   "family": "SCB Noto Serif SC",
+   "file": "SCBNotoSerifSC-Regular.ttf",
+   "role": "glyph-easy",
+   "weight": 500
+  },
+  {
+   "family": "SCB Ma Shan Zheng",
+   "file": "SCBMaShanZheng-Regular.ttf",
+   "role": "glyph-hard",
+   "weight": 400
+  },
+  {
+   "family": "SCB Long Cang",
+   "file": "SCBLongCang-Regular.ttf",
+   "role": "glyph-hard",
+   "weight": 400
+  },
+  {
+   "family": "SCB Zhi Mang Xing",
+   "file": "SCBZhiMangXing-Regular.ttf",
+   "role": "glyph-hard",
+   "weight": 400
+  },
+  {
+   "family": "SCB Liu Jian Mao Cao",
+   "file": "SCBLiuJianMaoCao-Regular.ttf",
+   "role": "glyph-hardest",
+   "weight": 400
+  }
+ ]
+}

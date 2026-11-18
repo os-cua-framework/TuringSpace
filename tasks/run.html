@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TuringSpace</title>
+<style>
+  html, body { margin: 0; height: 100%; }
+  body {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 18px; background: #eef1f5;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  #host { min-height: 200px; }
+  #cap { font-size: 13px; color: #8b96a1; letter-spacing: .02em; }
+  #err { color: #d33; font-size: 13px; white-space: pre-wrap; max-width: 560px; }
+  #steps { position: absolute; display: flex; gap: 10px; align-items: center; white-space: nowrap; }
+  #frame-no { font: 600 12px -apple-system, "PingFang SC", sans-serif; color: #5b6772; font-variant-numeric: tabular-nums; }
+  #steps button { font: 700 13px -apple-system, "PingFang SC", sans-serif; color: #3c4955; background: #eef2f6;
+    border: 1px solid #c8d0d8; border-radius: 6px; padding: 8px 14px; cursor: pointer; }
+  #steps button:active { background: #dde4ec; }
+  #steps button:disabled { color: #b5bcc4; background: #f4f5f7; border-color: #dde1e6; cursor: default; }
+</style>
+</head>
+<body>
+  <div id="host"></div>
+  <div id="cap"></div>
+  <div id="err"></div>
+  <script type="module">
+    import { boot } from './core/api.js';
+    const params = new URLSearchParams(location.search);
+    boot(document.getElementById('host'), params).then((b) => {
+      const p = b.params;
+      document.getElementById('cap').textContent = `${p.task}${p.cue ? ' · ' + p.cue : ''} · seed ${p.seed}`;
+      if (b.task.frames) stepControls(b);
+    }).catch((e) => {
+      document.getElementById('err').textContent = String(e.stack || e);
+    });
+
+    // Spatiotemporal tasks show their clip as n frames. Time moves only through the Next frame button, or through a
+    // turn-based task's own buttons.
+    function stepControls(b) {
+      const { n, period } = b.task.frames(b.manifest), dt = period / n;
+      if (!b.task.meta.turnBased) {
+        const host = document.getElementById('host'), canvas = host.querySelector('canvas');
+        const idx = (env) => Math.min(n - 1, Math.round((env.state?.t ?? 0) / dt)), atLast = (env) => idx(env) >= n - 1;
+        const bar = document.createElement('div'); bar.id = 'steps';
+        const lab = document.createElement('span'); lab.id = 'frame-no';
+        const btn = document.createElement('button'); btn.type = 'button'; btn.textContent = 'Next frame ▶';
+        bar.append(lab, btn); host.style.position = 'relative'; host.append(bar);
+        const show = () => {
+          lab.textContent = `${idx(b.env) + 1} / ${n}`;
+          btn.disabled = atLast(b.env);
+          const P = b.panel, v = P._verifyBtn; if (!v || !canvas) return;
+          const s = canvas.clientWidth / P.W;
+          bar.style.left = `${canvas.offsetLeft + (v.x - 12) * s - bar.offsetWidth}px`;
+          bar.style.top = `${canvas.offsetTop + (v.y + v.h / 2) * s - bar.offsetHeight / 2}px`;
+          const need = Math.ceil(bar.offsetWidth / s) + 12;
+          if (P.footerReserve !== need) { P.footerReserve = need; P.redraw(); }
+        };
+        btn.addEventListener('click', () => { if (atLast(b.env)) return; b.dispatch({ op: 'wait', sec: dt }); show(); b.panel.redraw(); });
+        show(); setInterval(show, 150);
+      }
+      cacheFrames(b, n, dt);
+    }
+
+    // While the clip is untouched, each drawn board is kept as a bitmap keyed by its frame, and the next frames are drawn
+    // ahead of time.
+    function cacheFrames(b, n, dt) {
+      const task = b.task, draw = task.drawBoard.bind(task), dpr = b.panel.dpr, C = new WeakMap();
+      const restOf = (env) => { const { t, steps, ...rest } = env.state; try { return JSON.stringify(rest); } catch (e) { return null; } };
+      const R0 = new WeakMap(), untouched = (env) => { if (!R0.has(env)) R0.set(env, restOf(env)); return !env.submitted && restOf(env) === R0.get(env); };
+      const keyOf = (env) => {
+        if (!untouched(env)) return null;
+        return `${((Math.round(env.state.t / dt) % n) + n) % n}|${R0.get(env)}`;
+      };
+      const paint = (env, br, key) => {
+        const c = document.createElement('canvas'); c.width = Math.ceil(br.w * dpr); c.height = Math.ceil(br.h * dpr);
+        const g = c.getContext('2d'); g.setTransform(dpr, 0, 0, dpr, -br.x * dpr, -br.y * dpr);
+        draw(g, br, env);
+        const M = C.get(env) || new Map(); C.set(env, M);
+        if (M.size >= 40) M.delete(M.keys().next().value);
+        M.set(key, c);
+        return c;
+      };
+      let slow = false, pending = null;
+      task.drawBoard = (g, br, env) => {
+        const key = keyOf(env), M = C.get(env);
+        if (key === null) return draw(g, br, env);
+        let c = M && M.get(key);
+        if (!c) { const t0 = performance.now(); c = paint(env, br, key); slow = slow || performance.now() - t0 > 60; }
+        g.drawImage(c, br.x, br.y, br.w, br.h);
+        if (slow) { clearTimeout(pending); pending = setTimeout(() => ahead(env, br, 1), 120); }
+      };
+      const ahead = (env, br, j) => {
+        if (j >= n || b.env !== env) return;
+        if (!task.meta.turnBased && Math.round(env.state.t / dt) + j > n - 1) return;
+        const st = env.state, next = { ...st, t: st.t + j * dt };
+        env.state = next;
+        const key = keyOf(env), M = C.get(env);
+        try { if (key !== null && !(M && M.has(key))) paint(env, br, key); } finally { env.state = st; }
+        pending = setTimeout(() => ahead(env, br, j + 1), 15);
+      };
+      pending = setTimeout(() => ahead(b.env, b.panel.boardRect(), 1), 50);
+    }
+  </script>
+</body>
+</html>

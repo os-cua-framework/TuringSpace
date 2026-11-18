@@ -1,0 +1,20 @@
+group,model,pass@1,pass@1_std,pass@1_A_spatial_relation,pass@1_B_closed_loop_manipulation,pass@1_C_multi_step_planning,pass@1_D_mental_transformation,pass@1_E_spatiotemporal_reasoning,pass^3,pass^3_A_spatial_relation,pass^3_B_closed_loop_manipulation,pass^3_C_multi_step_planning,pass^3_D_mental_transformation,pass^3_E_spatiotemporal_reasoning
+Human,Human,94.1,2.6,97.3,93.3,93.3,92.0,94.7,84.8,92.0,80.0,84.0,84.0,84.0
+Proprietary MLLMs,GPT-6 Astra,74.1,1.7,72.0,85.3,76.0,85.3,52.0,58.4,52.0,80.0,64.0,72.0,24.0
+Proprietary MLLMs,GPT-6 Sol,41.6,2.4,42.7,45.3,45.3,44.0,30.7,20.8,24.0,32.0,20.0,24.0,4.0
+Proprietary MLLMs,Claude Opus 5.5,65.3,0.5,62.7,64.0,70.7,74.7,54.7,45.6,40.0,48.0,60.0,48.0,32.0
+Proprietary MLLMs,Claude Fable 5.1,44.5,4.4,44.0,44.0,44.0,57.3,33.3,22.4,24.0,28.0,20.0,28.0,12.0
+Proprietary MLLMs,Claude Sonnet 5.5,37.1,4.7,37.3,48.0,34.7,34.7,30.7,14.4,16.0,28.0,16.0,8.0,4.0
+Proprietary MLLMs,Gemini 4 Argon,57.9,1.2,58.7,66.7,64.0,52.0,48.0,32.0,44.0,36.0,28.0,24.0,28.0
+Proprietary MLLMs,Gemini 3.8 Flash,30.1,1.7,37.3,22.7,33.3,28.0,29.3,12.0,20.0,8.0,12.0,8.0,12.0
+Open-weight MLLMs,Kimi K3,32.0,1.4,37.3,21.3,36.0,33.3,32.0,7.2,8.0,8.0,8.0,0.0,12.0
+Open-weight MLLMs,Qwen3.5-9B,2.4,0.0,0.0,0.0,0.0,4.0,8.0,0.0,0.0,0.0,0.0,0.0,0.0
+Open-weight MLLMs,Qwen3.8-27B,5.9,0.5,6.7,5.3,4.0,4.0,9.3,0.0,0.0,0.0,0.0,0.0,0.0
+Open-weight MLLMs,Qwen3.8-Max,30.7,3.6,36.0,30.7,14.7,38.7,33.3,8.0,8.0,4.0,0.0,12.0,16.0
+Open-weight GUI agents,EvoCUA-32B,2.9,1.2,1.3,0.0,0.0,1.3,12.0,0.8,0.0,0.0,0.0,0.0,4.0
+Open-weight GUI agents,OpenCUA-32B,2.4,0.8,4.0,1.3,0.0,2.7,4.0,0.0,0.0,0.0,0.0,0.0,0.0
+Open-weight GUI agents,UI-Venus-2-9B,3.5,1.2,8.0,1.3,2.7,2.7,2.7,0.0,0.0,0.0,0.0,0.0,0.0
+Open-weight GUI agents,UI-TARS-1.5-7B,0.5,0.5,0.0,0.0,0.0,1.3,1.3,0.0,0.0,0.0,0.0,0.0,0.0
+Open-weight GUI agents,ReCAP-32B-Instruct,1.6,0.8,0.0,1.3,2.7,1.3,2.7,0.0,0.0,0.0,0.0,0.0,0.0
+Fine-tuned in TuringSpace-Gym,TuringSpace-9B,33.1,6.1,53.3,16.0,30.7,21.3,44.0,12.8,20.0,4.0,12.0,12.0,16.0
+Fine-tuned in TuringSpace-Gym,Qwen3.5-9B (non-thinking),1.6,0.0,0.0,0.0,0.0,1.3,6.7,0.0,0.0,0.0,0.0,0.0,0.0

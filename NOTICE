@@ -1,0 +1,15 @@
+TuringSpace
+Copyright 2026 The TuringSpace Authors
+
+This product includes software adapted from OSWorld (https://github.com/xlang-ai/OSWorld), Copyright 2024 XLANG NLP Lab,
+licensed under the Apache License, Version 2.0. The agents in mm_agents/gpt/, mm_agents/kimi/, mm_agents/qwen/,
+mm_agents/evocua/, mm_agents/opencua/ and mm_agents/ui_tars/, and the structure of run.py, lib_run_single.py and
+turingspace_env/, were taken from OSWorld and modified for TuringSpace.
+
+mm_agents/recap/ follows the CAPTCHA evaluation harness of ReCAP-Agent (https://github.com/ASTRAL-Group/ReCAP-Agent),
+and mm_agents/ui_venus/captcha_system_prompt.txt is the CAPTCHA system prompt published with UI-Venus.
+ood_eval/spatial/vlmeval_parsers.py is copied from VLMEvalKit (https://github.com/open-compass/VLMEvalKit) and
+ood_eval/spatial/eek_parsers.py from EmbodiedEvalKit (https://github.com/pickxiguapi/EmbodiedEvalKit). These parts
+remain under the terms of their sources.
+
+The assets in tasks/assets/ keep the licences of their sources, listed in tasks/assets/ATTRIBUTION.md.
