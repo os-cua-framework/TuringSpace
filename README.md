@@ -43,7 +43,7 @@ benchmark tests every task on seeds 36, 43 and 50, so 375 instances in all. The 
 
 ## 📊 Results
 
-pass@1 (%) on TuringSpace-Bench. `results/leaderboard.csv` also holds pass^3 and the standard deviations.
+Average pass@1 (%) over the three test seeds (36, 43 and 50) on TuringSpace-Bench. `results/leaderboard.csv` also holds pass^3 and the standard deviations.
 
 | Model | A | B | C | D | E | All |
 |---|---:|---:|---:|---:|---:|---:|
