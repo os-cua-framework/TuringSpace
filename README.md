@@ -110,8 +110,7 @@ python play.py pipes_connect --seed 36
 
 ## 🏋️ Training
 
-TuringSpace-9B is Qwen3.5-9B fine-tuned with Megatron-SWIFT on 55,000 trajectories made with TuringSpace-Gym
-(`<TuringSpace-Gym link>`). The training screenshots are 1280×720 to save GPU memory, so TuringSpace-9B is also
+TuringSpace-9B is Qwen3.5-9B fine-tuned with Megatron-SWIFT on 55,000 trajectories made with [TuringSpace-Gym](https://huggingface.co/datasets/zhaihaotian/TuringSpace-Gym). The training screenshots are 1280×720 to save GPU memory, so TuringSpace-9B is also
 evaluated on 1280×720 screenshots. [`training/README.md`](./training/README.md) gives the samples, the settings and the
 commands.
 

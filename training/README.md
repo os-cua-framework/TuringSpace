@@ -1,6 +1,6 @@
 # Training TuringSpace-9B
 
-TuringSpace-9B is Qwen3.5-9B fine-tuned on 55,000 trajectories made with TuringSpace-Gym (`<TuringSpace-Gym link>`):
+TuringSpace-9B is Qwen3.5-9B fine-tuned on 55,000 trajectories made with [TuringSpace-Gym](https://huggingface.co/datasets/zhaihaotian/TuringSpace-Gym):
 500 per task for categories A–D and 200 per task for category E.
 
 | File | Role |
