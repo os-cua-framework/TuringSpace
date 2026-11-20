@@ -137,12 +137,14 @@ CAPTCHAs that protect real services, and do not train on the test instances (see
 ## 📝 Citation
 
 ```bibtex
-@article{ding2026turingspace,
-  title   = {TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs},
-  author  = {Ding, Xuwei and Zhai, Skylar and Song, Linxin and Feng, Jiarui and Fu, Dongqi and Xi, Huajun and
-             Li, Junnan and Liang, Jingcheng and Zhao, Jieyu and Xia, Yinglong and Li, Hong and Kang, Jian},
-  journal = {arXiv preprint},
-  year    = {2026}
+@misc{ding2026turingspacegroundingspatialintelligence,
+      title={TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs}, 
+      author={Xuwei Ding and Skylar Zhai and Linxin Song and Jiarui Feng and Dongqi Fu and Huajun Xi and Junnan Li and Jingcheng Liang and Jieyu Zhao and Yinglong Xia and Hong Li and Jian Kang},
+      year={2026},
+      eprint={2611.25387},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2611.25387}, 
 }
 ```
 
