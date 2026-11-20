@@ -1,7 +1,7 @@
 # TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs
 
 <p align="center">
-🧩 <a href="#-turingspace-bench">TuringSpace-Bench</a> &nbsp;|&nbsp; 📊 <a href="#-results">Results</a> &nbsp;|&nbsp; 🚀 <a href="#-quick-start">Quick start</a> &nbsp;|&nbsp; 🏋️ <a href="#️-training">Training</a> &nbsp;|&nbsp; 🌍 <a href="#-out-of-domain-evaluation">Out-of-domain evaluation</a>
+📄 <a href="https://arxiv.org/abs/2611.25387">arXiv</a> &nbsp;|&nbsp; 🧩 <a href="#-turingspace-bench">TuringSpace-Bench</a> &nbsp;|&nbsp; 📊 <a href="#-results">Results</a> &nbsp;|&nbsp; 🚀 <a href="#-quick-start">Quick start</a> &nbsp;|&nbsp; 🏋️ <a href="#️-training">Training</a> &nbsp;|&nbsp; 🌍 <a href="#-out-of-domain-evaluation">Out-of-domain evaluation</a>
 </p>
 
 This repository contains the evaluation code of **TuringSpace-Bench**, a benchmark of 125 interactive spatial CAPTCHAs,
